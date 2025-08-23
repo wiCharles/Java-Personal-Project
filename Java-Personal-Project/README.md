@@ -10,6 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/wiCharles/Java-Personal-Project)
 
+
 ## Description
 
 This Java project is designed to further my understanding of not only Java
