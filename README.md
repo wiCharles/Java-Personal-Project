@@ -9,7 +9,7 @@
 ![JUnit](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/wiCharles/Java-Personal-Project)
-
+[![Java CI with Maven](https://github.com/wiCharles/Java-Personal-Project/actions/workflows/ci.yml/badge.svg)](https://github.com/wiCharles/Java-Personal-Project/actions/workflows/ci.yml)
 
 ## Description
 
