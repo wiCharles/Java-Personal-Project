@@ -1,6 +1,6 @@
 package com.github.wiCharles.projectSandbox.character;
 
-import com.github.wiCharles.projectSandbox.stats.Statistics;
+import com.github.wiCharles.projectSandbox.Statistics;
 
 public class Character {
 
@@ -16,5 +16,13 @@ public class Character {
 
     public boolean isAlive() {
         return stats.getCurrentHp() > 0;
+    }
+
+    public void takeDamage(int damage) {
+        stats.setCurrentHp(stats.getCurrentHp() - damage);
+    }
+
+    public void displayStats() {
+        System.out.println();
     }
 }

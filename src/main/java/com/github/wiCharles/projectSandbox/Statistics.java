@@ -1,4 +1,4 @@
-package com.github.wiCharles.projectSandbox.stats;
+package com.github.wiCharles.projectSandbox;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -30,4 +30,16 @@ public class Statistics {
 
     private double dodgeChance;
     private double parryChance;
+
+    public boolean isConscious() {
+        return currentHp > 0;
+    }
+
+    public void takeDamage(int amount) {
+        this.currentHp = Math.max(0, this.currentHp - amount);
+    }
+
+    public void heal(int amount) {
+        this.currentHp = Math.min(this.maxHp, this.currentHp + amount);
+    }
 }
