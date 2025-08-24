@@ -31,12 +31,29 @@ public class Statistics {
     private double dodgeChance;
     private double parryChance;
 
-    public boolean isConscious() {
-        return currentHp > 0;
+
+
+    // Physical/Dexterity calculation
+    public int physicalDamageCalculate(int rawDamage) {
+        int damageAfterDefense = rawDamage - this.defenseValue;
+        return Math.max(1, damageAfterDefense); // Always do at least 1 damage
+    }
+
+    // Magical calculation
+    public int magicalDamageCalculate(int rawDamage) {
+        int damageAfterWarding = rawDamage - this.wardingValue;
+        return Math.max(1, damageAfterWarding);
     }
 
     public void takeDamage(int amount) {
-        this.currentHp = Math.max(0, this.currentHp - amount);
+        this.currentHp -= amount;
+        if (this.currentHp < 0) {
+            this.currentHp = 0;
+        }
+    }
+
+    public boolean isConscious() {
+        return currentHp > 0;
     }
 
     public void heal(int amount) {
