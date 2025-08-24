@@ -3,11 +3,14 @@ package com.github.wiCharles.projectSandbox;
 import lombok.Getter;
 import lombok.Setter;
 
-
+import java.util.Random;
+import java.util.random.*;
 
 @Getter
 @Setter
 public class Statistics {
+
+    private static final Random RANDOM = new Random();
 
     // Resource Values
     private int maxHp;
@@ -44,6 +47,27 @@ public class Statistics {
         int damageAfterWarding = rawDamage - this.wardingValue;
         return Math.max(1, damageAfterWarding);
     }
+
+    // Chance calculations.
+    public boolean checkForCriticalHit() {
+        return rollForChance(this.criticalChance);
+    }
+    public boolean checkForDodge() {
+        return rollForChance(this.dodgeChance);
+    }
+    public boolean checkForParry() {
+        return rollForChance(this.parryChance);
+    }
+
+    // Roller
+    private boolean rollForChance(double chance) {
+
+        if (chance >= 1.0 || RANDOM.nextDouble() <= chance) {
+            return true;
+        }
+        return false;
+    }
+
 
     public void takeDamage(int amount) {
         this.currentHp -= amount;

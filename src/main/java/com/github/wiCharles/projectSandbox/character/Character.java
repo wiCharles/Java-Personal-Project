@@ -14,14 +14,6 @@ public class Character {
         this.stats = stats;
     }
 
-    public boolean isAlive() {
-        return stats.getCurrentHp() > 0;
-    }
-
-    public void takeDamage(int damage) {
-        stats.setCurrentHp(stats.getCurrentHp() - damage);
-    }
-
     public void displayStats() {
         System.out.println();
     }
