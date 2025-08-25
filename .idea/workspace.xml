@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Created a chance method for statistics such as dodging and parrying.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" afterDir="false" />
+    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Created more character types for basic types.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/stats/StatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/stats/StatisticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/Statistics.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/stats/StatisticsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/stats/StatisticsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756077071201</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating displayStats method for statistics class.">
+      <option name="closed" value="true" />
+      <created>1756114161308</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756114161308</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created more character types for basic types.">
+      <option name="closed" value="true" />
+      <created>1756114210510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756114210510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +202,8 @@
     <MESSAGE value="Creating unit test layouts. Adding base character types." />
     <MESSAGE value="Created damage math methods, creating unit tests for these methods." />
     <MESSAGE value="Created a chance method for statistics such as dodging and parrying." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a chance method for statistics such as dodging and parrying." />
+    <MESSAGE value="Creating displayStats method for statistics class." />
+    <MESSAGE value="Created more character types for basic types." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created more character types for basic types." />
   </component>
 </project>

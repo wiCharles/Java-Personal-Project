@@ -8,5 +8,8 @@ public class App {
     public static void main(String[] args) {
         Character character = new Character("HAL",1,new Statistics());
         character.displayStats();
+
+        character.takeDamage(10);
+        character.heal(10);
     }
 }

@@ -14,6 +14,24 @@ public class Character {
         this.stats = stats;
     }
 
+    public void takeDamage(int amount) {
+        this.stats.takeDamage(amount);
+        System.out.println(name+" takes "+amount+" damage!");
+
+        if (!stats.isConscious()) {
+            System.out.println(name+ " has fallen!");
+        }
+    }
+
+    public void heal(int amount) {
+        this.stats.heal(amount);
+        System.out.println(name+ " heals "+amount+ " HP!");
+
+        if (!stats.isConscious()) {
+            System.out.println(name+ " has been brought back!");
+        }
+    }
+
     // Display stats
     public void displayStats() {
         System.out.println(
