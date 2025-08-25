@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Fixed differing constructors in char types.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/enemy/Wolf.java" afterDir="false" />
+    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Fist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Fist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756121685354</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted.">
+      <option name="closed" value="true" />
+      <created>1756122240129</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756122240129</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +247,7 @@
     <MESSAGE value="Working on Sword class as a template for other classes." />
     <MESSAGE value="Creating Spear class stats, as well as other templates. Also created a speed stat, to determine turn order." />
     <MESSAGE value="Fixed differing constructors in char types." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed differing constructors in char types." />
+    <MESSAGE value="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted." />
   </component>
 </project>

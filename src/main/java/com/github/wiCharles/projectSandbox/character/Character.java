@@ -1,11 +1,15 @@
 package com.github.wiCharles.projectSandbox.character;
 
 import com.github.wiCharles.projectSandbox.Statistics;
+import lombok.Getter;
+
 
 public abstract class Character {
 
     private String name;
     private int level;
+
+    @Getter
     private Statistics stats;
 
     public Character(String name, int level, Statistics stats) {
