@@ -87,11 +87,12 @@ demos. However, this stage will be the final product. A working RPG in which I a
 improving/maintaining it.
 
 ## Contributing
-As this is a personal project, I am not open to contributions. This could include ideas for characters, balance suggestions, or readability improvements.
+As this is a personal project, I am not open to contributions. I am however, open to suggestions! This could include ideas for characters, balance suggestions, or readability improvements.
 You can make suggestions by opening issues in my [GitHub Issues](https://github.com/wiCharles/Java-Personal-Project/issues)
 
 ## Authors and acknowledgment
-**William Charles** - *Initial work* - [wiCharles](https://github.com/wiCharles)
+**William Charles** - *Initial work* - [wiCharles](https://github.com/wiCharles).
+
 **Inspirations** - Various RPG games. (Exact references shall be listed here)
 
 ## License
