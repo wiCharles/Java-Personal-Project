@@ -18,6 +18,10 @@ public class Statistics {
     private int maxMP;
     private int currentMp;
 
+    // Speed value
+
+    private int speed;
+
     // Attack Scaling
     private int physicalAttack;
     private int dexterityAttack;
@@ -34,11 +38,13 @@ public class Statistics {
     private double dodgeChance;
     private double parryChance;
 
-    public Statistics(int maxHp, int maxMp, int physicalAttack, int dexterityAttack, int magicalAttack, double criticalChance, double criticalDamage, int defenseValue, int wardingValue, int fortitudeValue, double dodgeChance, double parryChance) {
+    public Statistics(int maxHp, int maxMp, int speed, int physicalAttack, int dexterityAttack, int magicalAttack, double criticalChance, double criticalDamage, int defenseValue, int wardingValue, int fortitudeValue, double dodgeChance, double parryChance) {
         this.maxHP = maxHp;
         this.maxMP = maxMp;
         this.currentHp = maxHp;
         this.currentMp = maxMp;
+
+        this.speed = speed;
 
         this.physicalAttack = physicalAttack;
         this.dexterityAttack = dexterityAttack;

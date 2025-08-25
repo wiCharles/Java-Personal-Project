@@ -14,7 +14,9 @@ public class Sword extends Character {
                 100,
                 25,
 
-                10,
+                5,
+
+                7,
                 5,
                 2,
 

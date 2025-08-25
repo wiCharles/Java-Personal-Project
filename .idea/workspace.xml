@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Implemented takeDamage and heal methods.">
+    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Working on Sword class as a template for other classes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/stats/StatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/stats/StatisticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Fist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Fist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/Statistics.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756115395764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Working on Sword class as a template for other classes.">
+      <option name="closed" value="true" />
+      <created>1756118221068</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756118221068</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +232,7 @@
     <MESSAGE value="Creating displayStats method for statistics class." />
     <MESSAGE value="Created more character types for basic types." />
     <MESSAGE value="Implemented takeDamage and heal methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented takeDamage and heal methods." />
+    <MESSAGE value="Working on Sword class as a template for other classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Sword class as a template for other classes." />
   </component>
 </project>

@@ -14,6 +14,10 @@ public abstract class Character {
         this.stats = stats;
     }
 
+    public void attack() {
+
+    }
+
     public void takeDamage(int amount) {
         this.stats.takeDamage(amount);
         System.out.println(name+" takes "+amount+" damage!");
@@ -40,7 +44,9 @@ public abstract class Character {
                 "|Level: "+level+"\n"+
                 "|Class: "+"N/A"+"\n\n"+
                 "|HP: "+stats.getCurrentHp()+"/"+stats.getMaxHP()+"\n"+
-                "|MP: "+stats.getCurrentMp()+"/"+stats.getMaxHP()+"\n\n"+
+                "|MP: "+stats.getCurrentMp()+"/"+stats.getMaxMP()+"\n\n"+
+
+                "|Speed: "+stats.getSpeed()+"\n\n"+
 
                 "|Physical Attack: "+stats.getPhysicalAttack()+"\n"+
                 "|Dexterity Attack: "+stats.getDexterityAttack()+"\n"+
