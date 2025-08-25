@@ -14,7 +14,7 @@ public class Fist extends Character {
                 100,
                 25,
 
-                5,
+                8,
 
                 10,
                 5,

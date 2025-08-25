@@ -14,7 +14,7 @@ public class Spear extends Character {
                 100,
                 25,
 
-                7,
+                6,
 
                 7,
                 5,

@@ -1,22 +1,22 @@
-package com.github.wiCharles.projectSandbox.character.player;
+package com.github.wiCharles.projectSandbox.character.enemy;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;
 
-public class Dagger extends Character {
+public class Wolf extends Character {
 
-    public Dagger (String name) {
-        super(name, 1, daggerStats());
+    public Wolf (String name) {
+        super(name, 1, wolfStats());
     }
 
-    private static Statistics daggerStats() {
+    private static Statistics wolfStats() {
         return new Statistics(
                 100,
                 25,
 
-                10,
+                6,
 
-                10,
+                7,
                 5,
                 2,
 

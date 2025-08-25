@@ -14,7 +14,7 @@ public class Mage extends Character {
                 50,
                 200,
 
-                5,
+                4,
 
                 10,
                 5,

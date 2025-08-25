@@ -14,7 +14,7 @@ public class HeavyWeapon extends Character {
                 100,
                 25,
 
-                5,
+                2,
 
                 10,
                 5,
