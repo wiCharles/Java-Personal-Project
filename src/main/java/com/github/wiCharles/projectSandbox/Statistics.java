@@ -13,9 +13,9 @@ public class Statistics {
     private static final Random RANDOM = new Random();
 
     // Resource Values
-    private int maxHp;
+    private int maxHP;
     private int currentHp;
-    private int maxMp;
+    private int maxMP;
     private int currentMp;
 
     // Attack Scaling
@@ -34,6 +34,30 @@ public class Statistics {
     private double dodgeChance;
     private double parryChance;
 
+    public Statistics(int maxHp, int maxMp, int physicalAttack, int dexterityAttack, int magicalAttack, double criticalChance, double criticalDamage, int defenseValue, int wardingValue, int fortitudeValue, double dodgeChance, double parryChance) {
+        this.maxHP = maxHp;
+        this.maxMP = maxMp;
+        this.currentHp = maxHp;
+        this.currentMp = maxMp;
+
+        this.physicalAttack = physicalAttack;
+        this.dexterityAttack = dexterityAttack;
+        this.magicalAttack = magicalAttack;
+
+        this.criticalChance = criticalChance;
+        this.criticalDamage = criticalDamage;
+
+        this.defenseValue = defenseValue;
+        this.wardingValue = wardingValue;
+        this.fortitudeValue = fortitudeValue;
+
+        this.dodgeChance = dodgeChance;
+        this.parryChance = parryChance;
+    }
+
+    public Statistics() {
+
+    }
 
     // Physical calculation
     // The lowest amount of damage you can take is 1.
@@ -91,6 +115,6 @@ public class Statistics {
     }
 
     public void heal(int amount) {
-        this.currentHp = Math.min(this.maxHp, this.currentHp + amount);
+        this.currentHp = Math.min(this.maxHP, this.currentHp + amount);
     }
 }

@@ -13,17 +13,17 @@ public class StatisticsTest {
     @BeforeEach
     void setUp() {
         stats = new Statistics();
-        stats.setMaxHp(100);
+        stats.setMaxHP(100);
         stats.setCurrentHp(100);
-        stats.setMaxMp(50);
+        stats.setMaxMP(50);
         stats.setCurrentMp(50);
     }
 
     @AfterEach
     void reset() {
-        stats.setMaxHp(100);
+        stats.setMaxHP(100);
         stats.setCurrentHp(100);
-        stats.setMaxMp(50);
+        stats.setMaxMP(50);
         stats.setCurrentMp(50);
     }
 

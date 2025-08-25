@@ -1,15 +1,16 @@
 package com.github.wiCharles;
 
-import com.github.wiCharles.projectSandbox.Statistics;
-import com.github.wiCharles.projectSandbox.character.Character;
+import com.github.wiCharles.projectSandbox.character.player.Sword;
 
 
 public class App {
     public static void main(String[] args) {
-        Character character = new Character("HAL",1,new Statistics());
+        Sword character = new Sword("HAL");
+        Sword character2 = new Sword("Dummy");
         character.displayStats();
 
         character.takeDamage(10);
         character.heal(10);
+
     }
 }

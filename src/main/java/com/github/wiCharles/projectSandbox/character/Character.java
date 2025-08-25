@@ -2,7 +2,7 @@ package com.github.wiCharles.projectSandbox.character;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 
-public class Character {
+public abstract class Character {
 
     private String name;
     private int level;
@@ -39,8 +39,8 @@ public class Character {
                 "|Name: "+name+"\n"+
                 "|Level: "+level+"\n"+
                 "|Class: "+"N/A"+"\n\n"+
-                "|HP: "+stats.getCurrentHp()+"/"+stats.getMaxHp()+"\n"+
-                "|MP: "+stats.getCurrentMp()+"/"+stats.getMaxMp()+"\n\n"+
+                "|HP: "+stats.getCurrentHp()+"/"+stats.getMaxHP()+"\n"+
+                "|MP: "+stats.getCurrentMp()+"/"+stats.getMaxHP()+"\n\n"+
 
                 "|Physical Attack: "+stats.getPhysicalAttack()+"\n"+
                 "|Dexterity Attack: "+stats.getDexterityAttack()+"\n"+
