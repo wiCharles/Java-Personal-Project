@@ -30,11 +30,13 @@ public class App {
         list.add(character6);
         list.add(character7);
 
-        Collections.sort(list, Comparator.comparing(c -> c.getStats().getSpeed()));
+        list.sort(Comparator.comparing(c -> c.getStats().getSpeed()));
 
         for (Character charac : list) {
             System.out.println(charac);
         }
+
+        character.attack(character,character2);
 
 //        character.displayStats();
 //

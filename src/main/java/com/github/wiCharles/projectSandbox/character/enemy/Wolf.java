@@ -6,7 +6,7 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class Wolf extends Character {
 
     public Wolf (String name) {
-        super(name, 1, wolfStats());
+        super(name, wolfStats());
     }
 
     private static Statistics wolfStats() {

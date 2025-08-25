@@ -6,7 +6,7 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class Fist extends Character {
 
     public Fist(String name) {
-        super(name, 1, fistStats());
+        super(name, fistStats());
     }
 
     private static Statistics fistStats() {
@@ -27,7 +27,7 @@ public class Fist extends Character {
                 5,
                 0,
 
-                0.05,
+                0.15,
                 0.10
         );
     }

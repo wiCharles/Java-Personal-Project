@@ -6,7 +6,7 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class Mage extends Character {
 
     public Mage(String name) {
-        super(name, 1, mageStats());
+        super(name, mageStats());
     }
 
     private static Statistics mageStats() {
@@ -16,15 +16,15 @@ public class Mage extends Character {
 
                 4,
 
-                10,
                 5,
-                2,
+                0,
+                25,
 
                 0.05,
                 1.5,
 
-                10,
-                5,
+                0,
+                25,
                 0,
 
                 0.05,

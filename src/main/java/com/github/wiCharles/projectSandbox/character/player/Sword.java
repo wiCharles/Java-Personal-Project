@@ -6,18 +6,19 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class Sword extends Character {
 
     public Sword(String name) {
-        super(name, 1, swordStats());
+        super(name, swordStats());
     }
 
     private static Statistics swordStats() {
         return new Statistics(
+
                 100,
                 25,
 
                 4,
 
-                7,
-                5,
+                10,
+                10,
                 2,
 
                 0.05,

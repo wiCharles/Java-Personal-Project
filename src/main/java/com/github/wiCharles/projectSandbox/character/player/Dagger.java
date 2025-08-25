@@ -6,7 +6,7 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class Dagger extends Character {
 
     public Dagger (String name) {
-        super(name, 1, daggerStats());
+        super(name, daggerStats());
     }
 
     private static Statistics daggerStats() {
@@ -27,7 +27,7 @@ public class Dagger extends Character {
                 5,
                 0,
 
-                0.05,
+                0.20,
                 0.10
         );
     }

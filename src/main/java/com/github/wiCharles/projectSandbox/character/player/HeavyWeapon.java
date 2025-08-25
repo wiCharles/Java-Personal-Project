@@ -6,7 +6,7 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class HeavyWeapon extends Character {
 
     public HeavyWeapon(String name) {
-        super(name, 1, heavyStats());
+        super(name, heavyStats());
     }
 
     private static Statistics heavyStats() {
@@ -16,16 +16,16 @@ public class HeavyWeapon extends Character {
 
                 2,
 
-                10,
-                5,
+                25,
+                0,
+                0,
+
+                0.0,
                 2,
 
-                0.05,
-                1.5,
-
-                10,
-                5,
-                0,
+                25,
+                20,
+                15,
 
                 0.05,
                 0.10

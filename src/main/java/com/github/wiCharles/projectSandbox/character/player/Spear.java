@@ -6,7 +6,7 @@ import com.github.wiCharles.projectSandbox.character.Character;
 public class Spear extends Character {
 
     public Spear(String name) {
-        super(name, 1, spearStats());
+        super(name, spearStats());
     }
 
     private static Statistics spearStats() {
@@ -27,8 +27,8 @@ public class Spear extends Character {
                 5,
                 0,
 
-                0.05,
-                0.10
+                0.10,
+                0.0
         );
     }
 }
