@@ -14,6 +14,8 @@ public class Ranger extends Character {
                 100,
                 25,
 
+                5,
+
                 10,
                 5,
                 2,
