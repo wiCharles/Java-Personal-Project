@@ -1,11 +1,12 @@
 package com.github.wiCharles;
 
-/**
- * Hello world!
- */
+import com.github.wiCharles.projectSandbox.Statistics;
+import com.github.wiCharles.projectSandbox.character.Character;
+
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Character character = new Character("HAL",1,new Statistics());
+        character.displayStats();
     }
 }

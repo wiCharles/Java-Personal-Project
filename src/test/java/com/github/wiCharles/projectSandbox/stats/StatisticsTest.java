@@ -13,7 +13,6 @@ public class StatisticsTest {
     @BeforeEach
     void setUp() {
         stats = new Statistics();
-        // Arrange the common state for our tests
         stats.setMaxHp(100);
         stats.setCurrentHp(100);
         stats.setMaxMp(50);
@@ -30,17 +29,13 @@ public class StatisticsTest {
 
     @Test
     void takePhysicalDamageReducesHP() {
-
         stats.takeDamage(15);
-
         assertThat(stats.getCurrentHp()).isEqualTo(85);
     }
 
     @Test
     void cannotHealBeyondMaxHp() {
-
         stats.heal(30);
-
         assertThat(stats.getCurrentHp()).isEqualTo(100);
     }
 
@@ -57,6 +52,22 @@ public class StatisticsTest {
         Statistics stats = new Statistics();
         stats.setDefenseValue(20);
         int result = stats.physicalDamageCalculate(15);
+        assertThat(result).isEqualTo(1);
+    }
+
+    @Test
+    void dexterityDamageDefenseReducesDamage() {
+        Statistics stats = new Statistics();
+        stats.setDefenseValue(8);
+        int result = stats.dexterityDamageCalculate(15);
+        assertThat(result).isEqualTo(7);
+    }
+
+    @Test
+    void dexterityDamageAlwaysReturnsAtLeastOne() {
+        Statistics stats = new Statistics();
+        stats.setDefenseValue(20);
+        int result = stats.dexterityDamageCalculate(15);
         assertThat(result).isEqualTo(1);
     }
 

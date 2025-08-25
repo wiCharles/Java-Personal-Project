@@ -35,20 +35,29 @@ public class Statistics {
     private double parryChance;
 
 
-
-    // Physical/Dexterity calculation
+    // Physical calculation
+    // The lowest amount of damage you can take is 1.
     public int physicalDamageCalculate(int rawDamage) {
         int damageAfterDefense = rawDamage - this.defenseValue;
-        return Math.max(1, damageAfterDefense); // Always do at least 1 damage
+        return Math.max(1, damageAfterDefense);
+    }
+
+    // Dexterity calculation
+    // The lowest amount of damage you can take is 1.
+    public int dexterityDamageCalculate(int rawDamage) {
+        int damageAfterDefense = rawDamage - this.defenseValue;
+        return Math.max(1, damageAfterDefense);
     }
 
     // Magical calculation
+    // The lowest amount of damage you can take is 1.
     public int magicalDamageCalculate(int rawDamage) {
         int damageAfterWarding = rawDamage - this.wardingValue;
         return Math.max(1, damageAfterWarding);
     }
 
     // Chance calculations.
+
     public boolean checkForCriticalHit() {
         return rollForChance(this.criticalChance);
     }
@@ -65,6 +74,7 @@ public class Statistics {
         if (chance >= 1.0 || RANDOM.nextDouble() <= chance) {
             return true;
         }
+
         return false;
     }
 
