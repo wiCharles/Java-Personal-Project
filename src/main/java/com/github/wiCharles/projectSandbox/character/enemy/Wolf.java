@@ -11,7 +11,7 @@ public class Wolf extends Character {
 
     private static Statistics wolfStats() {
         return new Statistics(
-                100,
+                50,
                 25,
 
                 6,

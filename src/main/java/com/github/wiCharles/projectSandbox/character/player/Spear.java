@@ -11,17 +11,17 @@ public class Spear extends Character {
 
     private static Statistics spearStats() {
         return new Statistics(
-                100,
-                25,
+                125,
+                50,
 
                 6,
 
-                7,
-                5,
-                2,
+                10,
+                10,
+                10,
 
                 0.05,
-                1.5,
+                1.75,
 
                 10,
                 5,

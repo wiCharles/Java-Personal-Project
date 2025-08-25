@@ -11,24 +11,24 @@ public class Dagger extends Character {
 
     private static Statistics daggerStats() {
         return new Statistics(
-                100,
-                25,
+                50,
+                50,
 
                 10,
 
                 10,
+                15,
                 5,
-                2,
 
                 0.05,
                 1.5,
 
-                10,
+                5,
                 5,
                 0,
 
                 0.20,
-                0.10
+                0.0
         );
     }
 }

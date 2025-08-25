@@ -11,8 +11,8 @@ public class HeavyWeapon extends Character {
 
     private static Statistics heavyStats() {
         return new Statistics(
-                100,
-                25,
+                200,
+                50,
 
                 2,
 
@@ -21,14 +21,14 @@ public class HeavyWeapon extends Character {
                 0,
 
                 0.0,
-                2,
+                2.0,
 
                 25,
                 20,
                 15,
 
-                0.05,
-                0.10
+                0.00,
+                0.20
         );
     }
 }

@@ -3,23 +3,41 @@ package com.github.wiCharles.projectSandbox.character;
 import com.github.wiCharles.projectSandbox.Statistics;
 import lombok.Getter;
 
+import java.util.Objects;
+
 
 public abstract class Character {
 
     private String name;
-    private int level;
 
     @Getter
     private Statistics stats;
 
-    public Character(String name, int level, Statistics stats) {
+    public Character(String name, Statistics stats) {
         this.name = name;
-        this.level = level;
         this.stats = stats;
     }
 
-    public void attack() {
+    public void returnPrimaryAttack() {
+    }
 
+    public void attack(Character attacker, Character defender) {
+
+        if (defender.getStats().checkForDodge()) {
+            System.out.println(defender.name + " has dodged the attack!");
+
+        } else if (defender.getStats().checkForParry()) {
+            System.out.println(defender.name + " has parried the attack!");
+            int parriedDmg = stats.getPhysicalAttack() / 100 * 25;
+            defender.takeDamage(parriedDmg);
+
+        } else if (this.getStats().checkForCriticalHit()) {
+            System.out.println(name + "has landed a critical!");
+
+        } else {
+            defender.takeDamage(stats.physicalDamageCalculate(stats.getPhysicalAttack()));
+            System.out.println();
+        }
     }
 
     public void takeDamage(int amount) {
@@ -45,7 +63,6 @@ public abstract class Character {
         System.out.println(
                 "-----------------------------------------------\n"+
                 "|Name: "+name+"\n"+
-                "|Level: "+level+"\n"+
                 "|Class: "+"N/A"+"\n\n"+
                 "|HP: "+stats.getCurrentHp()+"/"+stats.getMaxHP()+"\n"+
                 "|MP: "+stats.getCurrentMp()+"/"+stats.getMaxMP()+"\n\n"+

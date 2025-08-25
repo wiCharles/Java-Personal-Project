@@ -12,18 +12,18 @@ public class Ranger extends Character {
     private static Statistics rangerStats() {
         return new Statistics(
                 100,
-                25,
+                50,
 
                 6,
 
                 10,
+                25,
                 5,
-                2,
 
                 0.05,
-                1.5,
+                2.0,
 
-                10,
+                5,
                 5,
                 0,
 

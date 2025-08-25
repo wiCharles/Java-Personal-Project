@@ -28,7 +28,7 @@ public class Mage extends Character {
                 0,
 
                 0.05,
-                0.10
+                0.0
         );
     }
 }

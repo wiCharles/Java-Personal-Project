@@ -12,14 +12,14 @@ public class Sword extends Character {
     private static Statistics swordStats() {
         return new Statistics(
 
-                100,
-                25,
+                150,
+                50,
 
                 4,
 
                 10,
-                10,
-                2,
+                5,
+                5,
 
                 0.05,
                 1.5,

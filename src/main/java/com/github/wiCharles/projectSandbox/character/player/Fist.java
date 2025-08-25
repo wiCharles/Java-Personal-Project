@@ -11,14 +11,14 @@ public class Fist extends Character {
 
     private static Statistics fistStats() {
         return new Statistics(
-                100,
-                25,
+                75,
+                50,
 
                 8,
 
                 10,
+                15,
                 5,
-                2,
 
                 0.05,
                 1.5,
@@ -28,7 +28,7 @@ public class Fist extends Character {
                 0,
 
                 0.15,
-                0.10
+                0.05
         );
     }
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted.">
+    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Each character type now has unique values such as unique health or unique attack.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/enemy/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/enemy/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" afterDir="false" />
@@ -16,13 +15,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/enemy/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/enemy/Wolf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" afterDir="false" />
@@ -53,12 +49,12 @@
     &quot;assignee&quot;: &quot;wiCharles&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wiCharles/Java-Personal-Project.git",
-    "accountId": "4d1f24cb-07b4-4fb2-8877-d14752d227fd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wiCharles/Java-Personal-Project.git&quot;,
+    &quot;accountId&quot;: &quot;4d1f24cb-07b4-4fb2-8877-d14752d227fd&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -70,24 +66,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "JUnit.StatisticsTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/William/Desktop/Game/src/main/java/com/github/wiCharles/projectSandbox/character/player",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StatisticsTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/William/Desktop/Game/src/main/java/com/github/wiCharles/projectSandbox/character/player&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\William\Desktop\Game\src\main\java\com\github\wiCharles\projectSandbox\character\player" />
@@ -246,7 +242,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756122897943</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Each character type now has unique values such as unique health or unique attack.">
+      <option name="closed" value="true" />
+      <created>1756124437603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1756124437603</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Each character type now has unique values such as unique health or unique attack.">
+      <option name="closed" value="true" />
+      <created>1756124441548</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756124441548</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +284,7 @@
     <MESSAGE value="Creating Spear class stats, as well as other templates. Also created a speed stat, to determine turn order." />
     <MESSAGE value="Fixed differing constructors in char types." />
     <MESSAGE value="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted." />
+    <MESSAGE value="Each character type now has unique values such as unique health or unique attack." />
+    <option name="LAST_COMMIT_MESSAGE" value="Each character type now has unique values such as unique health or unique attack." />
   </component>
 </project>

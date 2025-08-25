@@ -36,7 +36,7 @@ public class App {
             System.out.println(charac);
         }
 
-        character.attack(character,character2);
+        character.attack(character,character3);
 
 //        character.displayStats();
 //
