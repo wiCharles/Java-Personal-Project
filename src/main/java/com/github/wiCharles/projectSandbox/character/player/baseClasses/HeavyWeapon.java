@@ -1,4 +1,4 @@
-package com.github.wiCharles.projectSandbox.character.player;
+package com.github.wiCharles.projectSandbox.character.player.baseClasses;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;
@@ -30,5 +30,10 @@ public class HeavyWeapon extends Character {
                 0.00,
                 0.20
         );
+    }
+
+    @Override
+    protected int getPrimaryAttack() {
+        return this.getStats().getPhysicalAttack();
     }
 }

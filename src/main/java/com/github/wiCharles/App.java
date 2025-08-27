@@ -1,10 +1,9 @@
 package com.github.wiCharles;
 
 import com.github.wiCharles.projectSandbox.character.Character;
-import com.github.wiCharles.projectSandbox.character.player.*;
+import com.github.wiCharles.projectSandbox.character.player.baseClasses.*;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 
@@ -36,7 +35,7 @@ public class App {
             System.out.println(charac);
         }
 
-        character.attack(character,character3);
+        character.attack(character3);
 
 //        character.displayStats();
 //

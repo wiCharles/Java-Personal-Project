@@ -3,14 +3,10 @@ package com.github.wiCharles.projectSandbox.character;
 import com.github.wiCharles.projectSandbox.Statistics;
 import lombok.Getter;
 
-import java.util.Objects;
-
-
+@Getter
 public abstract class Character {
 
     private String name;
-
-    @Getter
     private Statistics stats;
 
     public Character(String name, Statistics stats) {
@@ -18,28 +14,30 @@ public abstract class Character {
         this.stats = stats;
     }
 
-    public void returnPrimaryAttack() {
+    protected int getPrimaryAttack() {
+        return this.getPrimaryAttack();
     }
 
-    public void attack(Character attacker, Character defender) {
+    public void attack(Character defender) {
 
-        if (defender.getStats().checkForDodge()) {
+        if (defender.stats.checkForDodge()) {
             System.out.println(defender.name + " has dodged the attack!");
 
-        } else if (defender.getStats().checkForParry()) {
+        } else if (defender.stats.checkForParry()) {
             System.out.println(defender.name + " has parried the attack!");
-            int parriedDmg = stats.getPhysicalAttack() / 100 * 25;
+            int parriedDmg = getPrimaryAttack() / 100 * 25;
             defender.takeDamage(parriedDmg);
 
-        } else if (this.getStats().checkForCriticalHit()) {
-            int criticalDmg = (int) stats.getCriticalDamage()*stats.getPhysicalAttack();
-            defender.takeDamage(criticalDmg);
+        } else if (this.stats.checkForCriticalHit()) {
+            int criticalDmg = (int) stats.getCriticalDamage()*getPrimaryAttack();
             System.out.println(name + "has landed a critical!");
+            defender.takeDamage(criticalDmg);
 
         } else {
             defender.takeDamage(stats.physicalDamageCalculate(stats.getPhysicalAttack()));
-            System.out.println();
         }
+
+        System.out.println("The primary attack is: "+getPrimaryAttack());
     }
 
     public void takeDamage(int amount) {

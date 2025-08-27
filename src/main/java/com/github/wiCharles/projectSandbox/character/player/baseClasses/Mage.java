@@ -1,4 +1,4 @@
-package com.github.wiCharles.projectSandbox.character.player;
+package com.github.wiCharles.projectSandbox.character.player.baseClasses;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;
@@ -30,5 +30,9 @@ public class Mage extends Character {
                 0.05,
                 0.0
         );
+    }
+    @Override
+    protected int getPrimaryAttack() {
+        return this.getStats().getMagicalAttack();
     }
 }
