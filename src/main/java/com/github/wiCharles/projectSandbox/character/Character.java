@@ -54,6 +54,10 @@ public abstract class Character {
         }
     }
 
+    public boolean isConscious() {
+        return getStats().isConscious();
+    }
+
     // Display stats
     public void displayStats() {
         System.out.println(

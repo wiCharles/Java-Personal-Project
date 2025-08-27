@@ -16,10 +16,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CharacterTest {
 
-    private Sword testCharacter = new Sword("HAL");
-    private Ranger sniperCharacter = new Ranger("HAL2");
-    private Mage mageCharacter = new Mage("HAL3");
-    private HeavyWeapon heavyCharacter = new HeavyWeapon("Dummy");
+    private final Sword testCharacter = new Sword("HAL");
+    private final Ranger sniperCharacter = new Ranger("HAL2");
+    private final Mage mageCharacter = new Mage("HAL3");
+    private final HeavyWeapon heavyCharacter = new HeavyWeapon("Dummy");
 
 
     private final PrintStream originalOutput = System.out;

@@ -5,20 +5,20 @@ import com.github.wiCharles.projectSandbox.character.Character;
 
 public class Wolf extends Character {
 
-    public Wolf (String name) {
-        super(name, wolfStats());
+    public Wolf () {
+        super("Wolf", wolfStats());
     }
 
     private static Statistics wolfStats() {
         return new Statistics(
                 50,
-                25,
+                0,
 
                 6,
 
-                7,
-                5,
-                2,
+                10,
+                0,
+                0,
 
                 0.05,
                 1.5,
@@ -27,8 +27,8 @@ public class Wolf extends Character {
                 5,
                 0,
 
-                0.05,
-                0.10
+                0.10,
+                0.00
         );
     }
 
