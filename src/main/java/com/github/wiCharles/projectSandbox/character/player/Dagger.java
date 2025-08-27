@@ -1,20 +1,20 @@
-package com.github.wiCharles.projectSandbox.character.player.baseClasses;
+package com.github.wiCharles.projectSandbox.character.player;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;
 
-public class Fist extends Character {
+public class Dagger extends Character {
 
-    public Fist(String name) {
-        super(name, fistStats());
+    public Dagger (String name) {
+        super(name, daggerStats());
     }
 
-    private static Statistics fistStats() {
+    private static Statistics daggerStats() {
         return new Statistics(
-                75,
+                50,
                 50,
 
-                8,
+                10,
 
                 10,
                 15,
@@ -23,12 +23,12 @@ public class Fist extends Character {
                 0.05,
                 1.5,
 
-                10,
+                5,
                 5,
                 0,
 
-                0.15,
-                0.05
+                0.20,
+                0.0
         );
     }
     @Override

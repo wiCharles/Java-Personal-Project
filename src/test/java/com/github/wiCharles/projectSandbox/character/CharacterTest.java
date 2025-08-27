@@ -1,22 +1,26 @@
 package com.github.wiCharles.projectSandbox.character;
 
-import com.github.wiCharles.projectSandbox.character.player.baseClasses.HeavyWeapon;
-import com.github.wiCharles.projectSandbox.character.player.baseClasses.Sword;
+import com.github.wiCharles.projectSandbox.character.player.HeavyWeapon;
+import com.github.wiCharles.projectSandbox.character.player.Mage;
+import com.github.wiCharles.projectSandbox.character.player.Ranger;
+import com.github.wiCharles.projectSandbox.character.player.Sword;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.io.PrintStream;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CharacterTest {
-    private final Sword testCharacter = new Sword("HAL");
-    private final HeavyWeapon heavyCharacter = new HeavyWeapon("Dummy");
+
+    private Sword testCharacter = new Sword("HAL");
+    private Ranger sniperCharacter = new Ranger("HAL2");
+    private Mage mageCharacter = new Mage("HAL3");
+    private HeavyWeapon heavyCharacter = new HeavyWeapon("Dummy");
+
 
     private final PrintStream originalOutput = System.out;
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -117,5 +121,28 @@ public class CharacterTest {
                 "Dummy takes 100 damage!", outputStream.toString().trim());
         assertThat(heavyCharacter.getStats().getCurrentHp())
                 .isEqualTo(100);
+    }
+
+    @Test
+    public void testPrimaryDamagePickedCorrectly() {
+        // Assuming we have 3 characters, who all use different forms of damage
+        testCharacter.getStats().setPhysicalAttack(50);
+        sniperCharacter.getStats().setDexterityAttack(100);
+        mageCharacter.getStats().setMagicalAttack(75);
+        // And all characters are at full health
+        heavyCharacter.getStats().setMaxHP(300);
+        heavyCharacter.getStats().setCurrentHp(300);
+        // If each character attacks the same target, with different types of damage.
+        heavyCharacter.getStats().setParryChance(0);
+
+        testCharacter.attack(heavyCharacter);
+        sniperCharacter.attack(heavyCharacter);
+        mageCharacter.attack(heavyCharacter);
+
+        // The defender should have the correct amount of health remaining.
+        assertThat(heavyCharacter.getStats().getCurrentHp())
+                .isEqualTo(75);
+
+
     }
 }

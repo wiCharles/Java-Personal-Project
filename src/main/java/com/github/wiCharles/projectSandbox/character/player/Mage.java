@@ -1,4 +1,4 @@
-package com.github.wiCharles.projectSandbox.character.player.baseClasses;
+package com.github.wiCharles.projectSandbox.character.player;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;

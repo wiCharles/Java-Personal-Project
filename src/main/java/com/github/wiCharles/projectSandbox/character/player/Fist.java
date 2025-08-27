@@ -1,24 +1,23 @@
-package com.github.wiCharles.projectSandbox.character.player.baseClasses;
+package com.github.wiCharles.projectSandbox.character.player;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;
 
-public class Sword extends Character {
+public class Fist extends Character {
 
-    public Sword(String name) {
-        super(name, swordStats());
+    public Fist(String name) {
+        super(name, fistStats());
     }
 
-    private static Statistics swordStats() {
+    private static Statistics fistStats() {
         return new Statistics(
-
-                150,
+                75,
                 50,
 
-                4,
+                8,
 
                 10,
-                5,
+                15,
                 5,
 
                 0.05,
@@ -28,14 +27,12 @@ public class Sword extends Character {
                 5,
                 0,
 
-                0.05,
-                0.10
+                0.15,
+                0.05
         );
     }
-
     @Override
     protected int getPrimaryAttack() {
-        return this.getStats().getPhysicalAttack();
+        return this.getStats().getDexterityAttack();
     }
 }
-

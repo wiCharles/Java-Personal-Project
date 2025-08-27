@@ -6,8 +6,8 @@ import lombok.Getter;
 @Getter
 public abstract class Character {
 
-    private String name;
-    private Statistics stats;
+    private final String name;
+    private final Statistics stats;
 
     public Character(String name, Statistics stats) {
         this.name = name;

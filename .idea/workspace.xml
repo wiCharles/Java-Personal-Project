@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions.">
+    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="CharacterTest acceptance tests now pass.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Dagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Fist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Fist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/HeavyWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/HeavyWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Ranger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Spear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Spear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Sword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/character/CharacterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/character/CharacterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756291291917</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="CharacterTest acceptance tests now pass.">
+      <option name="closed" value="true" />
+      <created>1756296404039</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756296404039</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,6 +379,7 @@
     <MESSAGE value="Updating local files from Desktop" />
     <MESSAGE value="Created better acceptance tests for Character test. Incomplete" />
     <MESSAGE value="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions." />
+    <MESSAGE value="CharacterTest acceptance tests now pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="CharacterTest acceptance tests now pass." />
   </component>
 </project>

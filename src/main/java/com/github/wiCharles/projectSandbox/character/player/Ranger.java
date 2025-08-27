@@ -1,33 +1,33 @@
-package com.github.wiCharles.projectSandbox.character.player.baseClasses;
+package com.github.wiCharles.projectSandbox.character.player;
 
 import com.github.wiCharles.projectSandbox.Statistics;
 import com.github.wiCharles.projectSandbox.character.Character;
 
-public class Dagger extends Character {
+public class Ranger extends Character {
 
-    public Dagger (String name) {
-        super(name, daggerStats());
+    public Ranger (String name) {
+        super(name, rangerStats());
     }
 
-    private static Statistics daggerStats() {
+    private static Statistics rangerStats() {
         return new Statistics(
-                50,
+                100,
                 50,
 
-                10,
+                6,
 
                 10,
-                15,
+                25,
                 5,
 
                 0.05,
-                1.5,
+                2.0,
 
                 5,
                 5,
                 0,
 
-                0.20,
+                0.15,
                 0.0
         );
     }

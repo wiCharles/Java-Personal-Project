@@ -1,7 +1,7 @@
 package com.github.wiCharles;
 
 import com.github.wiCharles.projectSandbox.character.Character;
-import com.github.wiCharles.projectSandbox.character.player.baseClasses.*;
+import com.github.wiCharles.projectSandbox.character.player.*;
 
 import java.util.ArrayList;
 import java.util.Comparator;
