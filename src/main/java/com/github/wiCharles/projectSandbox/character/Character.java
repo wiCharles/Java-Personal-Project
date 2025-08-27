@@ -14,9 +14,7 @@ public abstract class Character {
         this.stats = stats;
     }
 
-    protected int getPrimaryAttack() {
-        return this.getPrimaryAttack();
-    }
+    protected abstract int getPrimaryAttack();
 
     public void attack(Character defender) {
 

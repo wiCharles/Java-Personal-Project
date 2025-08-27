@@ -31,4 +31,9 @@ public class Wolf extends Character {
                 0.10
         );
     }
+
+    @Override
+    protected int getPrimaryAttack() {
+        return this.getStats().getPhysicalAttack();
+    }
 }

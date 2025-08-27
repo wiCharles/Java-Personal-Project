@@ -96,7 +96,7 @@ public class CharacterTest {
         heavyCharacter.getStats().setParryChance(1.0);
         testCharacter.attack(heavyCharacter);
         //The defender should parry, printing to the terminal
-        assertEquals("Dummy has parried the attack!\n" +
+        assertEquals("Dummy has parried the attack!\r\n" +
                 "Dummy takes 12 damage!", outputStream.toString().trim());
         //And the defender should take damage, but be reduced by 25%
         testCharacter.getStats().setPhysicalAttack(10);
@@ -117,7 +117,7 @@ public class CharacterTest {
         testCharacter.attack(heavyCharacter);
         //The defender should endure a critical, printing it to the terminal
         //And the defender should take extra damage, depending on normal damage * critical multiplier.
-        assertEquals("HAL has landed a critical!\n" +
+        assertEquals("HAL has landed a critical!\r\n" +
                 "Dummy takes 100 damage!", outputStream.toString().trim());
         assertThat(heavyCharacter.getStats().getCurrentHp())
                 .isEqualTo(100);
