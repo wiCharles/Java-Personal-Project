@@ -25,19 +25,17 @@ public abstract class Character {
 
         } else if (defender.stats.checkForParry()) {
             System.out.println(defender.name + " has parried the attack!");
-            int parriedDmg = getPrimaryAttack() / 100 * 25;
+            int parriedDmg = (int)(getPrimaryAttack() * (25f/100f));
             defender.takeDamage(parriedDmg);
 
         } else if (this.stats.checkForCriticalHit()) {
-            int criticalDmg = (int) stats.getCriticalDamage()*getPrimaryAttack();
-            System.out.println(name + "has landed a critical!");
+            int criticalDmg = (int) (getPrimaryAttack() * stats.getCriticalDamage());
+            System.out.println(name + " has landed a critical!");
             defender.takeDamage(criticalDmg);
 
         } else {
-            defender.takeDamage(stats.physicalDamageCalculate(stats.getPhysicalAttack()));
+            defender.takeDamage(getPrimaryAttack());
         }
-
-        System.out.println("The primary attack is: "+getPrimaryAttack());
     }
 
     public void takeDamage(int amount) {

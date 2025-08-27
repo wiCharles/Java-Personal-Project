@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Updating local files from Desktop">
+    <list default="true" id="95d40cb4-ac09-4205-bfb3-742de9b54dbd" name="Changes" comment="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Fist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Fist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/HeavyWeapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Ranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Spear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wiCharles/projectSandbox/character/player/baseClasses/Sword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/CharacterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Dagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/Fist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Fist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/HeavyWeapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Ranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/Spear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Spear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/wiCharles/projectSandbox/character/player/baseClass/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/enemy/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/enemy/Wolf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Dagger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Fist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/HeavyWeapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Mage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Ranger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Spear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wiCharles/projectSandbox/character/player/Sword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/character/CharacterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/character/CharacterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/stats/StatisticsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/wiCharles/projectSandbox/stats/StatisticsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +37,12 @@
     &quot;assignee&quot;: &quot;wiCharles&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wiCharles/Java-Personal-Project.git",
-    "accountId": "035c9683-98fd-440c-b161-6605d1aea62e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wiCharles/Java-Personal-Project.git&quot;,
+    &quot;accountId&quot;: &quot;035c9683-98fd-440c-b161-6605d1aea62e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -86,6 +59,8 @@
     "Application.App.executor": "Run",
     "JUnit.CharacterTest.executor": "Run",
     "JUnit.CharacterTest.testAttacksAgainstCharacters.executor": "Run",
+    "JUnit.CharacterTest.testDodgeAgainstCharacters.executor": "Run",
+    "JUnit.CharacterTest.testParryAgainstCharacters.executor": "Run",
     "JUnit.StatisticsTest.executor": "Run",
     "JUnit.wiCharles in Java-Personal-Project.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -96,7 +71,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/William/Desktop/Game/src/main/java/com/github/wiCharles/projectSandbox/character/player",
+    "last_opened_file_path": "/home/wtc/Desktop",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -107,20 +82,7 @@
       <recent name="C:\Users\William\Desktop\Game\src\main\java\com\github\wiCharles\projectSandbox\character\player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatisticsTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.wiCharles.App" />
-      <module name="Java-Personal-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.wiCharles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CharacterTest">
     <configuration name="CharacterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Personal-Project" />
       <extension name="coverage">
@@ -152,6 +114,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CharacterTest.testDodgeAgainstCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-Personal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.wiCharles.projectSandbox.character.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.wiCharles.projectSandbox.character" />
+      <option name="MAIN_CLASS_NAME" value="com.github.wiCharles.projectSandbox.character.CharacterTest" />
+      <option name="METHOD_NAME" value="testDodgeAgainstCharacters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterTest.testParryAgainstCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-Personal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.wiCharles.projectSandbox.character.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.wiCharles.projectSandbox.character" />
+      <option name="MAIN_CLASS_NAME" value="com.github.wiCharles.projectSandbox.character.CharacterTest" />
+      <option name="METHOD_NAME" value="testParryAgainstCharacters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Personal-Project" />
       <extension name="coverage">
@@ -167,14 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wiCharles in Java-Personal-Project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-Personal-Project" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/com/github/wiCharles" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StatisticsTest" />
         <item itemvalue="JUnit.CharacterTest" />
+        <item itemvalue="JUnit.CharacterTest.testParryAgainstCharacters" />
+        <item itemvalue="JUnit.CharacterTest.testDodgeAgainstCharacters" />
         <item itemvalue="JUnit.CharacterTest.testAttacksAgainstCharacters" />
-        <item itemvalue="JUnit.wiCharles in Java-Personal-Project" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.StatisticsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +320,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756286904715</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created better acceptance tests for Character test. Incomplete">
+      <option name="closed" value="true" />
+      <created>1756291267645</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1756291267645</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions.">
+      <option name="closed" value="true" />
+      <created>1756291291917</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1756291291917</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +364,8 @@
     <MESSAGE value="Added unique speed values to char types. Also created a wolf enemy class. Needs to be formatted." />
     <MESSAGE value="Each character type now has unique values such as unique health or unique attack." />
     <MESSAGE value="Updating local files from Desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating local files from Desktop" />
+    <MESSAGE value="Created better acceptance tests for Character test. Incomplete" />
+    <MESSAGE value="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created better acceptance tests for Character test. Incomplete. Also made sure to move character types into packages, for later evolutions." />
   </component>
 </project>
