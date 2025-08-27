@@ -32,6 +32,8 @@ public abstract class Character {
             defender.takeDamage(parriedDmg);
 
         } else if (this.getStats().checkForCriticalHit()) {
+            int criticalDmg = (int) stats.getCriticalDamage()*stats.getPhysicalAttack();
+            defender.takeDamage(criticalDmg);
             System.out.println(name + "has landed a critical!");
 
         } else {

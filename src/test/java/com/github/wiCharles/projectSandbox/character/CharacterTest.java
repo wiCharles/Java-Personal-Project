@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class CharacterTest {
-    private final Sword testCharacter = new Sword("HAL");
+    private Sword testCharacter = new Sword("HAL");
 
 //    @BeforeEach
 //    void setUp() {
